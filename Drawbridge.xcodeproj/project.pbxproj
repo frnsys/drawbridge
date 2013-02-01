@@ -7,20 +7,170 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F13D7E26167A5A4E00EE7698 /* MenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = F13D7E25167A5A4E00EE7698 /* MenuView.m */; };
+		F13D7E2A167AA0D400EE7698 /* DrawingColorView.m in Sources */ = {isa = PBXBuildFile; fileRef = F13D7E29167AA0D400EE7698 /* DrawingColorView.m */; };
+		F13D7E33167AA1A200EE7698 /* ISColorWheel.m in Sources */ = {isa = PBXBuildFile; fileRef = F13D7E32167AA1A200EE7698 /* ISColorWheel.m */; };
+		F13D7E47167AC55600EE7698 /* close.png in Resources */ = {isa = PBXBuildFile; fileRef = F13D7E45167AC55600EE7698 /* close.png */; };
+		F13D7E48167AC55600EE7698 /* close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F13D7E46167AC55600EE7698 /* close@2x.png */; };
+		F13D7E69167AF9B700EE7698 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F13D7E68167AF9B700EE7698 /* Security.framework */; };
+		F13D7EC3167AFAA100EE7698 /* GCOAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = F13D7E6F167AFAA000EE7698 /* GCOAuth.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F13D7EC4167AFAA100EE7698 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = F13D7E70167AFAA000EE7698 /* LICENSE */; };
+		F13D7EC5167AFAA100EE7698 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = F13D7E72167AFAA000EE7698 /* NSData+Base64.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F13D7EC6167AFAA100EE7698 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = F13D7E74167AFAA000EE7698 /* LICENSE */; };
+		F13D7EC7167AFAA100EE7698 /* NSString+URLEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = F13D7E76167AFAA000EE7698 /* NSString+URLEncoding.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F13D7EC8167AFAA100EE7698 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = F13D7E78167AFAA000EE7698 /* LICENSE */; };
+		F13D7EC9167AFAA100EE7698 /* SSKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = F13D7E7A167AFAA000EE7698 /* SSKeychain.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F13D7ECA167AFAA100EE7698 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = F13D7E7C167AFAA000EE7698 /* LICENSE */; };
+		F13D7ECB167AFAA100EE7698 /* TBinaryProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = F13D7E7F167AFAA000EE7698 /* TBinaryProtocol.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F13D7ECC167AFAA100EE7698 /* TProtocolException.m in Sources */ = {isa = PBXBuildFile; fileRef = F13D7E82167AFAA000EE7698 /* TProtocolException.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F13D7ECD167AFAA100EE7698 /* TProtocolUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = F13D7E85167AFAA000EE7698 /* TProtocolUtil.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F13D7ECE167AFAA100EE7698 /* TApplicationException.m in Sources */ = {isa = PBXBuildFile; fileRef = F13D7E87167AFAA000EE7698 /* TApplicationException.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F13D7ECF167AFAA100EE7698 /* TException.m in Sources */ = {isa = PBXBuildFile; fileRef = F13D7E89167AFAA000EE7698 /* TException.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F13D7ED0167AFAA100EE7698 /* THTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = F13D7E8F167AFAA000EE7698 /* THTTPClient.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F13D7ED1167AFAA100EE7698 /* TMemoryBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = F13D7E91167AFAA000EE7698 /* TMemoryBuffer.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F13D7ED2167AFAA100EE7698 /* TTransportException.m in Sources */ = {isa = PBXBuildFile; fileRef = F13D7E94167AFAA000EE7698 /* TTransportException.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F13D7ED3167AFAA100EE7698 /* EDAMErrors.m in Sources */ = {isa = PBXBuildFile; fileRef = F13D7E98167AFAA000EE7698 /* EDAMErrors.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F13D7ED4167AFAA100EE7698 /* EDAMLimits.m in Sources */ = {isa = PBXBuildFile; fileRef = F13D7E9A167AFAA000EE7698 /* EDAMLimits.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F13D7ED5167AFAA100EE7698 /* EDAMNoteStore.m in Sources */ = {isa = PBXBuildFile; fileRef = F13D7E9C167AFAA000EE7698 /* EDAMNoteStore.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F13D7ED6167AFAA100EE7698 /* EDAMTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = F13D7E9E167AFAA000EE7698 /* EDAMTypes.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F13D7ED7167AFAA100EE7698 /* EDAMUserStore.m in Sources */ = {isa = PBXBuildFile; fileRef = F13D7EA0167AFAA000EE7698 /* EDAMUserStore.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F13D7ED8167AFAA100EE7698 /* EvernoteNoteStore+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = F13D7EA3167AFAA000EE7698 /* EvernoteNoteStore+Extras.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F13D7ED9167AFAA100EE7698 /* EvernoteNoteStore.m in Sources */ = {isa = PBXBuildFile; fileRef = F13D7EA5167AFAA000EE7698 /* EvernoteNoteStore.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F13D7EDA167AFAA100EE7698 /* EvernoteSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = F13D7EA7167AFAA000EE7698 /* EvernoteSDK.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F13D7EDB167AFAA100EE7698 /* EvernoteSession.m in Sources */ = {isa = PBXBuildFile; fileRef = F13D7EA9167AFAA000EE7698 /* EvernoteSession.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F13D7EDC167AFAA100EE7698 /* EvernoteUserStore+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = F13D7EAB167AFAA000EE7698 /* EvernoteUserStore+Extras.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F13D7EDD167AFAA100EE7698 /* EvernoteUserStore.m in Sources */ = {isa = PBXBuildFile; fileRef = F13D7EAD167AFAA000EE7698 /* EvernoteUserStore.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F13D7EDE167AFAA100EE7698 /* ENAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = F13D7EB0167AFAA000EE7698 /* ENAPI.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F13D7EDF167AFAA100EE7698 /* ENConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = F13D7EB2167AFAA000EE7698 /* ENConstants.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F13D7EE0167AFAA100EE7698 /* ENCredentials.m in Sources */ = {isa = PBXBuildFile; fileRef = F13D7EB4167AFAA000EE7698 /* ENCredentials.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F13D7EE1167AFAA100EE7698 /* ENCredentialStore.m in Sources */ = {isa = PBXBuildFile; fileRef = F13D7EB6167AFAA000EE7698 /* ENCredentialStore.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F13D7EE2167AFAA100EE7698 /* ENOAuthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F13D7EB8167AFAA000EE7698 /* ENOAuthViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F13D7EE3167AFAA100EE7698 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F13D7EBA167AFAA000EE7698 /* Localizable.strings */; };
+		F13D7EE4167AFAA100EE7698 /* ENMLUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = F13D7EBE167AFAA000EE7698 /* ENMLUtility.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F13D7EE5167AFAA100EE7698 /* NSData+EvernoteSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = F13D7EC0167AFAA000EE7698 /* NSData+EvernoteSDK.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F13D7EE6167AFAA100EE7698 /* NSDate+EDAMAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F13D7EC2167AFAA000EE7698 /* NSDate+EDAMAdditions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F13D7EEF167B02DF00EE7698 /* color.png in Resources */ = {isa = PBXBuildFile; fileRef = F13D7EEB167B02DF00EE7698 /* color.png */; };
+		F13D7EF0167B02DF00EE7698 /* color@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F13D7EEC167B02DF00EE7698 /* color@2x.png */; };
+		F13D7EF5167B03FA00EE7698 /* save.png in Resources */ = {isa = PBXBuildFile; fileRef = F13D7EF3167B03FA00EE7698 /* save.png */; };
+		F13D7EF6167B03FA00EE7698 /* save@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F13D7EF4167B03FA00EE7698 /* save@2x.png */; };
+		F13D7F04167B0F9800EE7698 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F13D7F03167B0F9800EE7698 /* Default.png */; };
+		F13D7F06167B0F9B00EE7698 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F13D7F05167B0F9B00EE7698 /* Default@2x.png */; };
+		F13D7F08167B0F9D00EE7698 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F13D7F07167B0F9D00EE7698 /* Default-568h@2x.png */; };
+		F13D7F16167B1AE000EE7698 /* happiness.png in Resources */ = {isa = PBXBuildFile; fileRef = F13D7F14167B1AE000EE7698 /* happiness.png */; };
+		F13D7F17167B1AE000EE7698 /* happiness@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F13D7F15167B1AE000EE7698 /* happiness@2x.png */; };
+		F13D7F19167B1F9D00EE7698 /* screenloggercoolot.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F13D7F18167B1F3000EE7698 /* screenloggercoolot.ttf */; };
+		F13D7F1C167B239200EE7698 /* sync.png in Resources */ = {isa = PBXBuildFile; fileRef = F13D7F1A167B239200EE7698 /* sync.png */; };
+		F13D7F1D167B239200EE7698 /* sync@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F13D7F1B167B239200EE7698 /* sync@2x.png */; };
 		F1B261531679A1FA00E322E7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1B261521679A1FA00E322E7 /* UIKit.framework */; };
 		F1B261551679A1FA00E322E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1B261541679A1FA00E322E7 /* Foundation.framework */; };
 		F1B261571679A1FA00E322E7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1B261561679A1FA00E322E7 /* CoreGraphics.framework */; };
 		F1B2615D1679A1FA00E322E7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F1B2615B1679A1FA00E322E7 /* InfoPlist.strings */; };
 		F1B2615F1679A1FA00E322E7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F1B2615E1679A1FA00E322E7 /* main.m */; };
 		F1B261631679A1FA00E322E7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F1B261621679A1FA00E322E7 /* AppDelegate.m */; };
-		F1B261651679A1FA00E322E7 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F1B261641679A1FA00E322E7 /* Default.png */; };
-		F1B261671679A1FA00E322E7 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1B261661679A1FA00E322E7 /* Default@2x.png */; };
-		F1B261691679A1FA00E322E7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1B261681679A1FA00E322E7 /* Default-568h@2x.png */; };
 		F1B2616C1679A1FA00E322E7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1B2616B1679A1FA00E322E7 /* ViewController.m */; };
 		F1B2616F1679A1FA00E322E7 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1B2616D1679A1FA00E322E7 /* ViewController.xib */; };
+		F1B261771679A22E00E322E7 /* DrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = F1B261761679A22E00E322E7 /* DrawView.m */; };
+		F1EC6F62167C3F64001F31AC /* icon-iphone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1EC6F61167C3F64001F31AC /* icon-iphone@2x.png */; };
+		F1EC6F64167C3F67001F31AC /* icon-iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = F1EC6F63167C3F67001F31AC /* icon-iphone.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F13D7E24167A5A4E00EE7698 /* MenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuView.h; sourceTree = "<group>"; };
+		F13D7E25167A5A4E00EE7698 /* MenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuView.m; sourceTree = "<group>"; };
+		F13D7E28167AA0D400EE7698 /* DrawingColorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawingColorView.h; sourceTree = "<group>"; };
+		F13D7E29167AA0D400EE7698 /* DrawingColorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawingColorView.m; sourceTree = "<group>"; };
+		F13D7E31167AA1A200EE7698 /* ISColorWheel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISColorWheel.h; sourceTree = "<group>"; };
+		F13D7E32167AA1A200EE7698 /* ISColorWheel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISColorWheel.m; sourceTree = "<group>"; };
+		F13D7E45167AC55600EE7698 /* close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = close.png; sourceTree = "<group>"; };
+		F13D7E46167AC55600EE7698 /* close@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "close@2x.png"; sourceTree = "<group>"; };
+		F13D7E68167AF9B700EE7698 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		F13D7E6E167AFAA000EE7698 /* GCOAuth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCOAuth.h; sourceTree = "<group>"; };
+		F13D7E6F167AFAA000EE7698 /* GCOAuth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCOAuth.m; sourceTree = "<group>"; };
+		F13D7E70167AFAA000EE7698 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		F13D7E71167AFAA000EE7698 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		F13D7E72167AFAA000EE7698 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		F13D7E74167AFAA000EE7698 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		F13D7E75167AFAA000EE7698 /* NSString+URLEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+URLEncoding.h"; sourceTree = "<group>"; };
+		F13D7E76167AFAA000EE7698 /* NSString+URLEncoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+URLEncoding.m"; sourceTree = "<group>"; };
+		F13D7E78167AFAA000EE7698 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		F13D7E79167AFAA000EE7698 /* SSKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSKeychain.h; sourceTree = "<group>"; };
+		F13D7E7A167AFAA000EE7698 /* SSKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSKeychain.m; sourceTree = "<group>"; };
+		F13D7E7C167AFAA000EE7698 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		F13D7E7E167AFAA000EE7698 /* TBinaryProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBinaryProtocol.h; sourceTree = "<group>"; };
+		F13D7E7F167AFAA000EE7698 /* TBinaryProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBinaryProtocol.m; sourceTree = "<group>"; };
+		F13D7E80167AFAA000EE7698 /* TProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TProtocol.h; sourceTree = "<group>"; };
+		F13D7E81167AFAA000EE7698 /* TProtocolException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TProtocolException.h; sourceTree = "<group>"; };
+		F13D7E82167AFAA000EE7698 /* TProtocolException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TProtocolException.m; sourceTree = "<group>"; };
+		F13D7E83167AFAA000EE7698 /* TProtocolFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TProtocolFactory.h; sourceTree = "<group>"; };
+		F13D7E84167AFAA000EE7698 /* TProtocolUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TProtocolUtil.h; sourceTree = "<group>"; };
+		F13D7E85167AFAA000EE7698 /* TProtocolUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TProtocolUtil.m; sourceTree = "<group>"; };
+		F13D7E86167AFAA000EE7698 /* TApplicationException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TApplicationException.h; sourceTree = "<group>"; };
+		F13D7E87167AFAA000EE7698 /* TApplicationException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TApplicationException.m; sourceTree = "<group>"; };
+		F13D7E88167AFAA000EE7698 /* TException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TException.h; sourceTree = "<group>"; };
+		F13D7E89167AFAA000EE7698 /* TException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TException.m; sourceTree = "<group>"; };
+		F13D7E8A167AFAA000EE7698 /* Thrift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Thrift.h; sourceTree = "<group>"; };
+		F13D7E8B167AFAA000EE7698 /* TProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TProcessor.h; sourceTree = "<group>"; };
+		F13D7E8C167AFAA000EE7698 /* TProcessorFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TProcessorFactory.h; sourceTree = "<group>"; };
+		F13D7E8E167AFAA000EE7698 /* THTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THTTPClient.h; sourceTree = "<group>"; };
+		F13D7E8F167AFAA000EE7698 /* THTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THTTPClient.m; sourceTree = "<group>"; };
+		F13D7E90167AFAA000EE7698 /* TMemoryBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMemoryBuffer.h; sourceTree = "<group>"; };
+		F13D7E91167AFAA000EE7698 /* TMemoryBuffer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMemoryBuffer.m; sourceTree = "<group>"; };
+		F13D7E92167AFAA000EE7698 /* TTransport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTransport.h; sourceTree = "<group>"; };
+		F13D7E93167AFAA000EE7698 /* TTransportException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTransportException.h; sourceTree = "<group>"; };
+		F13D7E94167AFAA000EE7698 /* TTransportException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTransportException.m; sourceTree = "<group>"; };
+		F13D7E96167AFAA000EE7698 /* EDAM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EDAM.h; sourceTree = "<group>"; };
+		F13D7E97167AFAA000EE7698 /* EDAMErrors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EDAMErrors.h; sourceTree = "<group>"; };
+		F13D7E98167AFAA000EE7698 /* EDAMErrors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EDAMErrors.m; sourceTree = "<group>"; };
+		F13D7E99167AFAA000EE7698 /* EDAMLimits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EDAMLimits.h; sourceTree = "<group>"; };
+		F13D7E9A167AFAA000EE7698 /* EDAMLimits.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EDAMLimits.m; sourceTree = "<group>"; };
+		F13D7E9B167AFAA000EE7698 /* EDAMNoteStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EDAMNoteStore.h; sourceTree = "<group>"; };
+		F13D7E9C167AFAA000EE7698 /* EDAMNoteStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EDAMNoteStore.m; sourceTree = "<group>"; };
+		F13D7E9D167AFAA000EE7698 /* EDAMTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EDAMTypes.h; sourceTree = "<group>"; };
+		F13D7E9E167AFAA000EE7698 /* EDAMTypes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EDAMTypes.m; sourceTree = "<group>"; };
+		F13D7E9F167AFAA000EE7698 /* EDAMUserStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EDAMUserStore.h; sourceTree = "<group>"; };
+		F13D7EA0167AFAA000EE7698 /* EDAMUserStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EDAMUserStore.m; sourceTree = "<group>"; };
+		F13D7EA1167AFAA000EE7698 /* evernote-sdk-ios-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "evernote-sdk-ios-Prefix.pch"; sourceTree = "<group>"; };
+		F13D7EA2167AFAA000EE7698 /* EvernoteNoteStore+Extras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "EvernoteNoteStore+Extras.h"; sourceTree = "<group>"; };
+		F13D7EA3167AFAA000EE7698 /* EvernoteNoteStore+Extras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "EvernoteNoteStore+Extras.m"; sourceTree = "<group>"; };
+		F13D7EA4167AFAA000EE7698 /* EvernoteNoteStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EvernoteNoteStore.h; sourceTree = "<group>"; };
+		F13D7EA5167AFAA000EE7698 /* EvernoteNoteStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EvernoteNoteStore.m; sourceTree = "<group>"; };
+		F13D7EA6167AFAA000EE7698 /* EvernoteSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EvernoteSDK.h; sourceTree = "<group>"; };
+		F13D7EA7167AFAA000EE7698 /* EvernoteSDK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EvernoteSDK.m; sourceTree = "<group>"; };
+		F13D7EA8167AFAA000EE7698 /* EvernoteSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EvernoteSession.h; sourceTree = "<group>"; };
+		F13D7EA9167AFAA000EE7698 /* EvernoteSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EvernoteSession.m; sourceTree = "<group>"; };
+		F13D7EAA167AFAA000EE7698 /* EvernoteUserStore+Extras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "EvernoteUserStore+Extras.h"; sourceTree = "<group>"; };
+		F13D7EAB167AFAA000EE7698 /* EvernoteUserStore+Extras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "EvernoteUserStore+Extras.m"; sourceTree = "<group>"; };
+		F13D7EAC167AFAA000EE7698 /* EvernoteUserStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EvernoteUserStore.h; sourceTree = "<group>"; };
+		F13D7EAD167AFAA000EE7698 /* EvernoteUserStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EvernoteUserStore.m; sourceTree = "<group>"; };
+		F13D7EAF167AFAA000EE7698 /* ENAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ENAPI.h; sourceTree = "<group>"; };
+		F13D7EB0167AFAA000EE7698 /* ENAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ENAPI.m; sourceTree = "<group>"; };
+		F13D7EB1167AFAA000EE7698 /* ENConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ENConstants.h; sourceTree = "<group>"; };
+		F13D7EB2167AFAA000EE7698 /* ENConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ENConstants.m; sourceTree = "<group>"; };
+		F13D7EB3167AFAA000EE7698 /* ENCredentials.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ENCredentials.h; sourceTree = "<group>"; };
+		F13D7EB4167AFAA000EE7698 /* ENCredentials.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ENCredentials.m; sourceTree = "<group>"; };
+		F13D7EB5167AFAA000EE7698 /* ENCredentialStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ENCredentialStore.h; sourceTree = "<group>"; };
+		F13D7EB6167AFAA000EE7698 /* ENCredentialStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ENCredentialStore.m; sourceTree = "<group>"; };
+		F13D7EB7167AFAA000EE7698 /* ENOAuthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ENOAuthViewController.h; sourceTree = "<group>"; };
+		F13D7EB8167AFAA000EE7698 /* ENOAuthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ENOAuthViewController.m; sourceTree = "<group>"; };
+		F13D7EBB167AFAA000EE7698 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F13D7EBD167AFAA000EE7698 /* ENMLUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ENMLUtility.h; sourceTree = "<group>"; };
+		F13D7EBE167AFAA000EE7698 /* ENMLUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ENMLUtility.m; sourceTree = "<group>"; };
+		F13D7EBF167AFAA000EE7698 /* NSData+EvernoteSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+EvernoteSDK.h"; sourceTree = "<group>"; };
+		F13D7EC0167AFAA000EE7698 /* NSData+EvernoteSDK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+EvernoteSDK.m"; sourceTree = "<group>"; };
+		F13D7EC1167AFAA000EE7698 /* NSDate+EDAMAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+EDAMAdditions.h"; sourceTree = "<group>"; };
+		F13D7EC2167AFAA000EE7698 /* NSDate+EDAMAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+EDAMAdditions.m"; sourceTree = "<group>"; };
+		F13D7EEB167B02DF00EE7698 /* color.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = color.png; sourceTree = "<group>"; };
+		F13D7EEC167B02DF00EE7698 /* color@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "color@2x.png"; sourceTree = "<group>"; };
+		F13D7EF3167B03FA00EE7698 /* save.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = save.png; sourceTree = "<group>"; };
+		F13D7EF4167B03FA00EE7698 /* save@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "save@2x.png"; sourceTree = "<group>"; };
+		F13D7F03167B0F9800EE7698 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../Default.png; sourceTree = "<group>"; };
+		F13D7F05167B0F9B00EE7698 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../Default@2x.png"; sourceTree = "<group>"; };
+		F13D7F07167B0F9D00EE7698 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
+		F13D7F14167B1AE000EE7698 /* happiness.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = happiness.png; sourceTree = "<group>"; };
+		F13D7F15167B1AE000EE7698 /* happiness@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "happiness@2x.png"; sourceTree = "<group>"; };
+		F13D7F18167B1F3000EE7698 /* screenloggercoolot.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = screenloggercoolot.ttf; sourceTree = "<group>"; };
+		F13D7F1A167B239200EE7698 /* sync.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sync.png; sourceTree = "<group>"; };
+		F13D7F1B167B239200EE7698 /* sync@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sync@2x.png"; sourceTree = "<group>"; };
 		F1B2614E1679A1FA00E322E7 /* Drawbridge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Drawbridge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1B261521679A1FA00E322E7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F1B261541679A1FA00E322E7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -31,12 +181,13 @@
 		F1B261601679A1FA00E322E7 /* Drawbridge-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Drawbridge-Prefix.pch"; sourceTree = "<group>"; };
 		F1B261611679A1FA00E322E7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F1B261621679A1FA00E322E7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F1B261641679A1FA00E322E7 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		F1B261661679A1FA00E322E7 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		F1B261681679A1FA00E322E7 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		F1B2616A1679A1FA00E322E7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		F1B2616B1679A1FA00E322E7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		F1B2616E1679A1FA00E322E7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		F1B261751679A22E00E322E7 /* DrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DrawView.h; path = ../DrawView.h; sourceTree = "<group>"; };
+		F1B261761679A22E00E322E7 /* DrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DrawView.m; path = ../DrawView.m; sourceTree = "<group>"; };
+		F1EC6F61167C3F64001F31AC /* icon-iphone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-iphone@2x.png"; path = "../icon-iphone@2x.png"; sourceTree = "<group>"; };
+		F1EC6F63167C3F67001F31AC /* icon-iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-iphone.png"; path = "../icon-iphone.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +195,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F13D7E69167AF9B700EE7698 /* Security.framework in Frameworks */,
 				F1B261531679A1FA00E322E7 /* UIKit.framework in Frameworks */,
 				F1B261551679A1FA00E322E7 /* Foundation.framework in Frameworks */,
 				F1B261571679A1FA00E322E7 /* CoreGraphics.framework in Frameworks */,
@@ -53,6 +205,199 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F13D7E44167AC54B00EE7698 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F1EC6F63167C3F67001F31AC /* icon-iphone.png */,
+				F1EC6F61167C3F64001F31AC /* icon-iphone@2x.png */,
+				F13D7F07167B0F9D00EE7698 /* Default-568h@2x.png */,
+				F13D7F05167B0F9B00EE7698 /* Default@2x.png */,
+				F13D7F03167B0F9800EE7698 /* Default.png */,
+				F13D7F18167B1F3000EE7698 /* screenloggercoolot.ttf */,
+				F13D7F1A167B239200EE7698 /* sync.png */,
+				F13D7F1B167B239200EE7698 /* sync@2x.png */,
+				F13D7F14167B1AE000EE7698 /* happiness.png */,
+				F13D7F15167B1AE000EE7698 /* happiness@2x.png */,
+				F13D7EF3167B03FA00EE7698 /* save.png */,
+				F13D7EF4167B03FA00EE7698 /* save@2x.png */,
+				F13D7EEB167B02DF00EE7698 /* color.png */,
+				F13D7EEC167B02DF00EE7698 /* color@2x.png */,
+				F13D7E45167AC55600EE7698 /* close.png */,
+				F13D7E46167AC55600EE7698 /* close@2x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F13D7E6B167AFAA000EE7698 /* evernote-sdk-ios */ = {
+			isa = PBXGroup;
+			children = (
+				F13D7E6C167AFAA000EE7698 /* 3rdParty */,
+				F13D7E95167AFAA000EE7698 /* EDAM */,
+				F13D7EA1167AFAA000EE7698 /* evernote-sdk-ios-Prefix.pch */,
+				F13D7EA2167AFAA000EE7698 /* EvernoteNoteStore+Extras.h */,
+				F13D7EA3167AFAA000EE7698 /* EvernoteNoteStore+Extras.m */,
+				F13D7EA4167AFAA000EE7698 /* EvernoteNoteStore.h */,
+				F13D7EA5167AFAA000EE7698 /* EvernoteNoteStore.m */,
+				F13D7EA6167AFAA000EE7698 /* EvernoteSDK.h */,
+				F13D7EA7167AFAA000EE7698 /* EvernoteSDK.m */,
+				F13D7EA8167AFAA000EE7698 /* EvernoteSession.h */,
+				F13D7EA9167AFAA000EE7698 /* EvernoteSession.m */,
+				F13D7EAA167AFAA000EE7698 /* EvernoteUserStore+Extras.h */,
+				F13D7EAB167AFAA000EE7698 /* EvernoteUserStore+Extras.m */,
+				F13D7EAC167AFAA000EE7698 /* EvernoteUserStore.h */,
+				F13D7EAD167AFAA000EE7698 /* EvernoteUserStore.m */,
+				F13D7EAE167AFAA000EE7698 /* internal */,
+				F13D7EBC167AFAA000EE7698 /* Utilities */,
+			);
+			path = "evernote-sdk-ios";
+			sourceTree = "<group>";
+		};
+		F13D7E6C167AFAA000EE7698 /* 3rdParty */ = {
+			isa = PBXGroup;
+			children = (
+				F13D7E6D167AFAA000EE7698 /* cocoa-oauth */,
+				F13D7E73167AFAA000EE7698 /* NSString+URLEncoding */,
+				F13D7E77167AFAA000EE7698 /* SSKeychain */,
+				F13D7E7B167AFAA000EE7698 /* Thrift */,
+			);
+			path = 3rdParty;
+			sourceTree = "<group>";
+		};
+		F13D7E6D167AFAA000EE7698 /* cocoa-oauth */ = {
+			isa = PBXGroup;
+			children = (
+				F13D7E6E167AFAA000EE7698 /* GCOAuth.h */,
+				F13D7E6F167AFAA000EE7698 /* GCOAuth.m */,
+				F13D7E70167AFAA000EE7698 /* LICENSE */,
+				F13D7E71167AFAA000EE7698 /* NSData+Base64.h */,
+				F13D7E72167AFAA000EE7698 /* NSData+Base64.m */,
+			);
+			path = "cocoa-oauth";
+			sourceTree = "<group>";
+		};
+		F13D7E73167AFAA000EE7698 /* NSString+URLEncoding */ = {
+			isa = PBXGroup;
+			children = (
+				F13D7E74167AFAA000EE7698 /* LICENSE */,
+				F13D7E75167AFAA000EE7698 /* NSString+URLEncoding.h */,
+				F13D7E76167AFAA000EE7698 /* NSString+URLEncoding.m */,
+			);
+			path = "NSString+URLEncoding";
+			sourceTree = "<group>";
+		};
+		F13D7E77167AFAA000EE7698 /* SSKeychain */ = {
+			isa = PBXGroup;
+			children = (
+				F13D7E78167AFAA000EE7698 /* LICENSE */,
+				F13D7E79167AFAA000EE7698 /* SSKeychain.h */,
+				F13D7E7A167AFAA000EE7698 /* SSKeychain.m */,
+			);
+			path = SSKeychain;
+			sourceTree = "<group>";
+		};
+		F13D7E7B167AFAA000EE7698 /* Thrift */ = {
+			isa = PBXGroup;
+			children = (
+				F13D7E7C167AFAA000EE7698 /* LICENSE */,
+				F13D7E7D167AFAA000EE7698 /* protocol */,
+				F13D7E86167AFAA000EE7698 /* TApplicationException.h */,
+				F13D7E87167AFAA000EE7698 /* TApplicationException.m */,
+				F13D7E88167AFAA000EE7698 /* TException.h */,
+				F13D7E89167AFAA000EE7698 /* TException.m */,
+				F13D7E8A167AFAA000EE7698 /* Thrift.h */,
+				F13D7E8B167AFAA000EE7698 /* TProcessor.h */,
+				F13D7E8C167AFAA000EE7698 /* TProcessorFactory.h */,
+				F13D7E8D167AFAA000EE7698 /* transport */,
+			);
+			path = Thrift;
+			sourceTree = "<group>";
+		};
+		F13D7E7D167AFAA000EE7698 /* protocol */ = {
+			isa = PBXGroup;
+			children = (
+				F13D7E7E167AFAA000EE7698 /* TBinaryProtocol.h */,
+				F13D7E7F167AFAA000EE7698 /* TBinaryProtocol.m */,
+				F13D7E80167AFAA000EE7698 /* TProtocol.h */,
+				F13D7E81167AFAA000EE7698 /* TProtocolException.h */,
+				F13D7E82167AFAA000EE7698 /* TProtocolException.m */,
+				F13D7E83167AFAA000EE7698 /* TProtocolFactory.h */,
+				F13D7E84167AFAA000EE7698 /* TProtocolUtil.h */,
+				F13D7E85167AFAA000EE7698 /* TProtocolUtil.m */,
+			);
+			path = protocol;
+			sourceTree = "<group>";
+		};
+		F13D7E8D167AFAA000EE7698 /* transport */ = {
+			isa = PBXGroup;
+			children = (
+				F13D7E8E167AFAA000EE7698 /* THTTPClient.h */,
+				F13D7E8F167AFAA000EE7698 /* THTTPClient.m */,
+				F13D7E90167AFAA000EE7698 /* TMemoryBuffer.h */,
+				F13D7E91167AFAA000EE7698 /* TMemoryBuffer.m */,
+				F13D7E92167AFAA000EE7698 /* TTransport.h */,
+				F13D7E93167AFAA000EE7698 /* TTransportException.h */,
+				F13D7E94167AFAA000EE7698 /* TTransportException.m */,
+			);
+			path = transport;
+			sourceTree = "<group>";
+		};
+		F13D7E95167AFAA000EE7698 /* EDAM */ = {
+			isa = PBXGroup;
+			children = (
+				F13D7E96167AFAA000EE7698 /* EDAM.h */,
+				F13D7E97167AFAA000EE7698 /* EDAMErrors.h */,
+				F13D7E98167AFAA000EE7698 /* EDAMErrors.m */,
+				F13D7E99167AFAA000EE7698 /* EDAMLimits.h */,
+				F13D7E9A167AFAA000EE7698 /* EDAMLimits.m */,
+				F13D7E9B167AFAA000EE7698 /* EDAMNoteStore.h */,
+				F13D7E9C167AFAA000EE7698 /* EDAMNoteStore.m */,
+				F13D7E9D167AFAA000EE7698 /* EDAMTypes.h */,
+				F13D7E9E167AFAA000EE7698 /* EDAMTypes.m */,
+				F13D7E9F167AFAA000EE7698 /* EDAMUserStore.h */,
+				F13D7EA0167AFAA000EE7698 /* EDAMUserStore.m */,
+			);
+			path = EDAM;
+			sourceTree = "<group>";
+		};
+		F13D7EAE167AFAA000EE7698 /* internal */ = {
+			isa = PBXGroup;
+			children = (
+				F13D7EAF167AFAA000EE7698 /* ENAPI.h */,
+				F13D7EB0167AFAA000EE7698 /* ENAPI.m */,
+				F13D7EB1167AFAA000EE7698 /* ENConstants.h */,
+				F13D7EB2167AFAA000EE7698 /* ENConstants.m */,
+				F13D7EB3167AFAA000EE7698 /* ENCredentials.h */,
+				F13D7EB4167AFAA000EE7698 /* ENCredentials.m */,
+				F13D7EB5167AFAA000EE7698 /* ENCredentialStore.h */,
+				F13D7EB6167AFAA000EE7698 /* ENCredentialStore.m */,
+				F13D7EB7167AFAA000EE7698 /* ENOAuthViewController.h */,
+				F13D7EB8167AFAA000EE7698 /* ENOAuthViewController.m */,
+				F13D7EB9167AFAA000EE7698 /* Resources */,
+			);
+			path = internal;
+			sourceTree = "<group>";
+		};
+		F13D7EB9167AFAA000EE7698 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F13D7EBA167AFAA000EE7698 /* Localizable.strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F13D7EBC167AFAA000EE7698 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				F13D7EBD167AFAA000EE7698 /* ENMLUtility.h */,
+				F13D7EBE167AFAA000EE7698 /* ENMLUtility.m */,
+				F13D7EBF167AFAA000EE7698 /* NSData+EvernoteSDK.h */,
+				F13D7EC0167AFAA000EE7698 /* NSData+EvernoteSDK.m */,
+				F13D7EC1167AFAA000EE7698 /* NSDate+EDAMAdditions.h */,
+				F13D7EC2167AFAA000EE7698 /* NSDate+EDAMAdditions.m */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		F1B261431679A1FA00E322E7 = {
 			isa = PBXGroup;
 			children = (
@@ -73,6 +418,7 @@
 		F1B261511679A1FA00E322E7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F13D7E68167AF9B700EE7698 /* Security.framework */,
 				F1B261521679A1FA00E322E7 /* UIKit.framework */,
 				F1B261541679A1FA00E322E7 /* Foundation.framework */,
 				F1B261561679A1FA00E322E7 /* CoreGraphics.framework */,
@@ -83,12 +429,22 @@
 		F1B261581679A1FA00E322E7 /* Drawbridge */ = {
 			isa = PBXGroup;
 			children = (
+				F13D7E44167AC54B00EE7698 /* Resources */,
+				F13D7E31167AA1A200EE7698 /* ISColorWheel.h */,
+				F13D7E32167AA1A200EE7698 /* ISColorWheel.m */,
 				F1B261611679A1FA00E322E7 /* AppDelegate.h */,
 				F1B261621679A1FA00E322E7 /* AppDelegate.m */,
 				F1B2616A1679A1FA00E322E7 /* ViewController.h */,
 				F1B2616B1679A1FA00E322E7 /* ViewController.m */,
 				F1B2616D1679A1FA00E322E7 /* ViewController.xib */,
+				F13D7E6B167AFAA000EE7698 /* evernote-sdk-ios */,
 				F1B261591679A1FA00E322E7 /* Supporting Files */,
+				F1B261751679A22E00E322E7 /* DrawView.h */,
+				F1B261761679A22E00E322E7 /* DrawView.m */,
+				F13D7E24167A5A4E00EE7698 /* MenuView.h */,
+				F13D7E25167A5A4E00EE7698 /* MenuView.m */,
+				F13D7E28167AA0D400EE7698 /* DrawingColorView.h */,
+				F13D7E29167AA0D400EE7698 /* DrawingColorView.m */,
 			);
 			path = Drawbridge;
 			sourceTree = "<group>";
@@ -100,9 +456,6 @@
 				F1B2615B1679A1FA00E322E7 /* InfoPlist.strings */,
 				F1B2615E1679A1FA00E322E7 /* main.m */,
 				F1B261601679A1FA00E322E7 /* Drawbridge-Prefix.pch */,
-				F1B261641679A1FA00E322E7 /* Default.png */,
-				F1B261661679A1FA00E322E7 /* Default@2x.png */,
-				F1B261681679A1FA00E322E7 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -158,11 +511,29 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F13D7F19167B1F9D00EE7698 /* screenloggercoolot.ttf in Resources */,
 				F1B2615D1679A1FA00E322E7 /* InfoPlist.strings in Resources */,
-				F1B261651679A1FA00E322E7 /* Default.png in Resources */,
-				F1B261671679A1FA00E322E7 /* Default@2x.png in Resources */,
-				F1B261691679A1FA00E322E7 /* Default-568h@2x.png in Resources */,
 				F1B2616F1679A1FA00E322E7 /* ViewController.xib in Resources */,
+				F13D7E47167AC55600EE7698 /* close.png in Resources */,
+				F13D7E48167AC55600EE7698 /* close@2x.png in Resources */,
+				F13D7EC4167AFAA100EE7698 /* LICENSE in Resources */,
+				F13D7EC6167AFAA100EE7698 /* LICENSE in Resources */,
+				F13D7EC8167AFAA100EE7698 /* LICENSE in Resources */,
+				F13D7ECA167AFAA100EE7698 /* LICENSE in Resources */,
+				F13D7EE3167AFAA100EE7698 /* Localizable.strings in Resources */,
+				F13D7EEF167B02DF00EE7698 /* color.png in Resources */,
+				F13D7EF0167B02DF00EE7698 /* color@2x.png in Resources */,
+				F13D7EF5167B03FA00EE7698 /* save.png in Resources */,
+				F13D7EF6167B03FA00EE7698 /* save@2x.png in Resources */,
+				F13D7F04167B0F9800EE7698 /* Default.png in Resources */,
+				F13D7F06167B0F9B00EE7698 /* Default@2x.png in Resources */,
+				F13D7F08167B0F9D00EE7698 /* Default-568h@2x.png in Resources */,
+				F13D7F16167B1AE000EE7698 /* happiness.png in Resources */,
+				F13D7F17167B1AE000EE7698 /* happiness@2x.png in Resources */,
+				F13D7F1C167B239200EE7698 /* sync.png in Resources */,
+				F13D7F1D167B239200EE7698 /* sync@2x.png in Resources */,
+				F1EC6F62167C3F64001F31AC /* icon-iphone@2x.png in Resources */,
+				F1EC6F64167C3F67001F31AC /* icon-iphone.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,12 +547,55 @@
 				F1B2615F1679A1FA00E322E7 /* main.m in Sources */,
 				F1B261631679A1FA00E322E7 /* AppDelegate.m in Sources */,
 				F1B2616C1679A1FA00E322E7 /* ViewController.m in Sources */,
+				F1B261771679A22E00E322E7 /* DrawView.m in Sources */,
+				F13D7E26167A5A4E00EE7698 /* MenuView.m in Sources */,
+				F13D7E2A167AA0D400EE7698 /* DrawingColorView.m in Sources */,
+				F13D7E33167AA1A200EE7698 /* ISColorWheel.m in Sources */,
+				F13D7EC3167AFAA100EE7698 /* GCOAuth.m in Sources */,
+				F13D7EC5167AFAA100EE7698 /* NSData+Base64.m in Sources */,
+				F13D7EC7167AFAA100EE7698 /* NSString+URLEncoding.m in Sources */,
+				F13D7EC9167AFAA100EE7698 /* SSKeychain.m in Sources */,
+				F13D7ECB167AFAA100EE7698 /* TBinaryProtocol.m in Sources */,
+				F13D7ECC167AFAA100EE7698 /* TProtocolException.m in Sources */,
+				F13D7ECD167AFAA100EE7698 /* TProtocolUtil.m in Sources */,
+				F13D7ECE167AFAA100EE7698 /* TApplicationException.m in Sources */,
+				F13D7ECF167AFAA100EE7698 /* TException.m in Sources */,
+				F13D7ED0167AFAA100EE7698 /* THTTPClient.m in Sources */,
+				F13D7ED1167AFAA100EE7698 /* TMemoryBuffer.m in Sources */,
+				F13D7ED2167AFAA100EE7698 /* TTransportException.m in Sources */,
+				F13D7ED3167AFAA100EE7698 /* EDAMErrors.m in Sources */,
+				F13D7ED4167AFAA100EE7698 /* EDAMLimits.m in Sources */,
+				F13D7ED5167AFAA100EE7698 /* EDAMNoteStore.m in Sources */,
+				F13D7ED6167AFAA100EE7698 /* EDAMTypes.m in Sources */,
+				F13D7ED7167AFAA100EE7698 /* EDAMUserStore.m in Sources */,
+				F13D7ED8167AFAA100EE7698 /* EvernoteNoteStore+Extras.m in Sources */,
+				F13D7ED9167AFAA100EE7698 /* EvernoteNoteStore.m in Sources */,
+				F13D7EDA167AFAA100EE7698 /* EvernoteSDK.m in Sources */,
+				F13D7EDB167AFAA100EE7698 /* EvernoteSession.m in Sources */,
+				F13D7EDC167AFAA100EE7698 /* EvernoteUserStore+Extras.m in Sources */,
+				F13D7EDD167AFAA100EE7698 /* EvernoteUserStore.m in Sources */,
+				F13D7EDE167AFAA100EE7698 /* ENAPI.m in Sources */,
+				F13D7EDF167AFAA100EE7698 /* ENConstants.m in Sources */,
+				F13D7EE0167AFAA100EE7698 /* ENCredentials.m in Sources */,
+				F13D7EE1167AFAA100EE7698 /* ENCredentialStore.m in Sources */,
+				F13D7EE2167AFAA100EE7698 /* ENOAuthViewController.m in Sources */,
+				F13D7EE4167AFAA100EE7698 /* ENMLUtility.m in Sources */,
+				F13D7EE5167AFAA100EE7698 /* NSData+EvernoteSDK.m in Sources */,
+				F13D7EE6167AFAA100EE7698 /* NSDate+EDAMAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		F13D7EBA167AFAA000EE7698 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F13D7EBB167AFAA000EE7698 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		F1B2615B1679A1FA00E322E7 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -253,9 +667,11 @@
 		F1B261731679A1FA00E322E7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Drawbridge/Drawbridge-Prefix.pch";
 				INFOPLIST_FILE = "Drawbridge/Drawbridge-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -264,9 +680,11 @@
 		F1B261741679A1FA00E322E7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Drawbridge/Drawbridge-Prefix.pch";
 				INFOPLIST_FILE = "Drawbridge/Drawbridge-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -291,6 +709,7 @@
 				F1B261741679A1FA00E322E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

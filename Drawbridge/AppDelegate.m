@@ -9,6 +9,8 @@
 #import "AppDelegate.h"
 
 #import "ViewController.h"
+#import "EvernoteSession.h"
+
 
 @implementation AppDelegate
 
@@ -16,9 +18,25 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    
+    // Setup Evernote OAuth:
+    NSString *EVERNOTE_HOST = @"www.evernote.com";
+    NSString *CONSUMER_KEY = @"frnsys";
+    NSString *CONSUMER_SECRET = @"8ba7baad443896ad";
+    EvernoteService service = EVERNOTE_SERVICE_INTERNATIONAL;
+    [EvernoteSession setSharedSessionHost:EVERNOTE_HOST
+                              consumerKey:CONSUMER_KEY
+                           consumerSecret:CONSUMER_SECRET
+                         supportedService:service];
+    
     self.viewController = [[ViewController alloc] initWithNibName:@"ViewController" bundle:nil];
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
+    
+
+     
+    
+    
     return YES;
 }
 

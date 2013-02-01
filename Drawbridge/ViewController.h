@@ -7,7 +7,21 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DrawView.h"
+#import "EvernoteSDK.h"
+#import "NSData+EvernoteSDK.h"
+#import "ENMLUtility.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController {
+    DrawView* drawView;
+    UIView* successView;
+    CGRect screenRect;
+    EvernoteSession *session;
+    UIImage* successImage;
+    UIImage* syncingImage;;
+    UIImageView* successImageView;
+    UILabel* successLabel;
+}
+
 
 @end
